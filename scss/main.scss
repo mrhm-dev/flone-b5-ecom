@@ -20,6 +20,30 @@ body {
 }
 
 .nav-icon {
-	color: #555555;
+	color: rgba(0, 0, 0, 0.55);
 	font-size: 1.3rem;
+}
+
+.nav-item {
+	cursor: pointer;
+}
+
+.custom-dropdown {
+	position: relative;
+}
+
+.custom-dropdown:hover ul {
+	display: block;
+}
+
+.custom-dropdown ul {
+	display: none;
+	min-width: 100px;
+	position: absolute;
+	z-index: 100;
+	background-color: #fff;
+	box-shadow: 0 1px 7px -2px rgb(0 0 0 / 30%);
+	padding: 1rem;
+	border-radius: 0.15rem;
+	margin-top: 0.5rem;
 }
