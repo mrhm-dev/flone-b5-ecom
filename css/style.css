@@ -10771,4 +10771,57 @@ body {
   margin-top: 0.5rem;
 }
 
+#main-carousel .carousel-inner {
+  height: 500px;
+}
+
+.carousel-control-prev {
+  left: -15rem;
+}
+
+.carousel-control-next {
+  right: -15rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(100%);
+}
+
+.carousel-item {
+  height: 100%;
+  background-color: #f6f6f6;
+}
+
+.carousel-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-content div {
+  flex: 1;
+}
+
+.carousel-text h1, .carousel-text .h1 {
+  font-size: 5rem;
+  line-height: 6rem;
+  font-weight: 400 !important;
+}
+
+.btn-cta {
+  padding: 0.8rem 3rem;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  border: 1px solid #000;
+  margin-top: 2rem;
+}
+
+.carousel-img {
+  display: flex;
+  justify-content: flex-end;
+}
+
 /*# sourceMappingURL=style.css.map */
