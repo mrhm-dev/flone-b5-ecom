@@ -11126,4 +11126,50 @@ body {
   margin: 0 auto;
 }
 
+.subscribe-wrapper {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.subscribe-wrapper h3, .subscribe-wrapper .h3 {
+  font-size: 48px;
+  margin-right: 23px;
+  color: #010101;
+}
+.subscribe-wrapper p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 23px;
+  color: #696969;
+}
+.subscribe-wrapper .subscribe-form {
+  position: relative;
+}
+.subscribe-wrapper .subscribe-form .email {
+  width: 100%;
+  font-size: 14px;
+  height: 45px;
+  padding: 2px 50px 2px 0;
+  color: #333;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #e2e2e2;
+  background: transparent;
+  box-shadow: none;
+}
+.subscribe-wrapper .subscribe-form .submit {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+}
+.subscribe-wrapper .subscribe-form .submit .button {
+  font-size: 30px;
+  height: 45px;
+  padding: 0;
+  transition: 0.3s;
+  color: #cacaca;
+  border: none;
+  background: none;
+}
+
 /*# sourceMappingURL=style.css.map */

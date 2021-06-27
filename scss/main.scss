@@ -458,3 +458,56 @@ body {
 		margin: 0 auto;
 	}
 }
+
+// subscribe form
+.subscribe-wrapper {
+	margin-top: 50px;
+	margin-bottom: 100px;
+
+	h3 {
+		font-size: 48px;
+		margin-right: 23px;
+		color: #010101;
+	}
+
+	p {
+		font-size: 16px;
+		font-weight: 400;
+		margin-right: 23px;
+		color: #696969;
+	}
+
+	.subscribe-form {
+		position: relative;
+
+		.email {
+			width: 100%;
+			font-size: 14px;
+			height: 45px;
+			padding: 2px 50px 2px 0;
+			color: #333;
+			outline: none;
+			border: none;
+			border-bottom: 2px solid #e2e2e2;
+			background: transparent;
+			box-shadow: none;
+		}
+
+		.submit {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			display: inline-block;
+
+			.button {
+				font-size: 30px;
+				height: 45px;
+				padding: 0;
+				transition: 0.3s;
+				color: #cacaca;
+				border: none;
+				background: none;
+			}
+		}
+	}
+}
