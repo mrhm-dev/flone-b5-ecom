@@ -10884,4 +10884,51 @@ body {
   transform: scale(1.2);
 }
 
+.section-title h2, .section-title .h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0;
+  line-height: 36px;
+  position: relative;
+}
+.section-title h2:before, .section-title .h2:before, .section-title h2:after, .section-title .h2:after {
+  position: absolute;
+  top: 17px;
+  width: 80px;
+  height: 2px;
+  content: "";
+  background-color: #000;
+}
+.section-title h2:before, .section-title .h2:before {
+  left: -100px;
+}
+.section-title h2:after, .section-title .h2:after {
+  right: -100px;
+}
+
+.product-tab-list {
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 55px;
+}
+.product-tab-list .nav-link {
+  background-color: transparent !important;
+  margin: 0 12px;
+  display: block;
+  padding: 8px 16px;
+}
+.product-tab-list a.active h4, .product-tab-list a.active .h4, .product-tab-list a h4:hover, .product-tab-list a .h4:hover {
+  color: #000;
+}
+.product-tab-list a h4, .product-tab-list a .h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  transition: all 0.3s ease 0s;
+  color: #555;
+  line-height: 24px;
+}
+
 /*# sourceMappingURL=style.css.map */
