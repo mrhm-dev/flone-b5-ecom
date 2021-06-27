@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap");
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -10822,6 +10823,65 @@ body {
 .carousel-img {
   display: flex;
   justify-content: flex-end;
+}
+
+.single-banner {
+  border: 4px solid #fff;
+  position: relative;
+  overflow: hidden;
+  margin: 6rem 0;
+}
+.single-banner img {
+  width: 100%;
+  transition: all 0.5s ease 0s;
+  transform: scale(1);
+}
+.single-banner .banner-content {
+  position: absolute;
+  content: "";
+  top: 40px;
+  left: 36px;
+}
+.single-banner .banner-content h3, .single-banner .banner-content .h3 {
+  margin: 0;
+  font-family: Cormorant Garamond;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #617D05;
+}
+.single-banner .banner-content h4, .single-banner .banner-content .h4 {
+  margin: 3px 0 58px;
+  font-family: Cormorant Garamond;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #010101;
+}
+.single-banner .banner-content span {
+  display: inline-block;
+  margin-left: 2px;
+  font-size: 20px;
+  line-height: 1;
+  color: #617D05;
+  position: relative;
+  top: 2px;
+}
+.single-banner .banner-content a {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border: 2px solid #617D05;
+  border-radius: 100%;
+  font-size: 16px;
+  text-align: center;
+  color: #617D05;
+}
+.single-banner .banner-content a > i {
+  line-height: 32px;
+}
+.single-banner:hover a img {
+  transform: scale(1.2);
 }
 
 /*# sourceMappingURL=style.css.map */

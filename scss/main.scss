@@ -1,5 +1,6 @@
 // Customize Bootstrap
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
 
 $font-family-sans-serif: 'Poppins', sans-serif;
 
@@ -99,4 +100,73 @@ body {
 .carousel-img {
 	display: flex;
 	justify-content: flex-end;
+}
+
+
+// Featured banners
+.single-banner {
+	border: 4px solid #fff;
+	position: relative;
+	overflow: hidden;
+	margin: 6rem 0;
+
+	img {
+		width: 100%;
+		transition: all .5s ease 0s;
+		transform: scale(1);
+	}
+
+	.banner-content {
+		position: absolute;
+		content: "";
+		top: 40px;
+		left: 36px;
+
+		h3 {
+			margin: 0;
+			font-family: Cormorant Garamond;
+			font-size: 36px;
+			font-weight: 600;
+			line-height: 30px;
+			color: #617D05;
+		}
+
+		h4 {
+			margin: 3px 0 58px;
+			font-family: Cormorant Garamond;
+			font-size: 18px;
+			font-weight: 600;
+			line-height: 24px;
+			color: #010101;
+		}
+
+		span {
+			display: inline-block;
+			margin-left: 2px;
+			font-size: 20px;
+			line-height: 1;
+			color: #617D05;
+			position: relative;
+			top: 2px;
+		}
+
+		a {
+			display: inline-block;
+			width: 28px;
+			height: 28px;
+			border: 2px solid #617D05;
+			border-radius: 100%;
+			font-size: 16px;
+			text-align: center;
+			color: #617D05;
+		}
+
+		a > i {
+			line-height: 32px;
+		}
+	}
+
+	&:hover a img {
+		transform: scale(1.2)
+	}
 }
