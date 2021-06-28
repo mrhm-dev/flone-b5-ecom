@@ -11128,7 +11128,6 @@ body {
 
 .subscribe-wrapper {
   margin-top: 50px;
-  margin-bottom: 100px;
 }
 .subscribe-wrapper h3, .subscribe-wrapper .h3 {
   font-size: 48px;
@@ -11170,6 +11169,83 @@ body {
   color: #cacaca;
   border: none;
   background: none;
+}
+
+.footer-area {
+  background-color: #f1f1f1;
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+.footer-area .scroll-top {
+  position: fixed;
+  z-index: 9999 !important;
+  right: 20px;
+  bottom: 60px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 100%;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  background-color: #a749ff;
+}
+.footer-area .scroll-top i {
+  font-size: 22px;
+  line-height: 50px;
+  display: block;
+}
+.footer-area .copyright {
+  margin-bottom: 30px;
+}
+.footer-area .copyright .footer-logo {
+  margin-top: 41px;
+  margin-bottom: 12px;
+}
+.footer-area .copyright a {
+  color: #313131;
+  text-decoration: none;
+}
+.footer-area .copyright p {
+  color: #313131;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.9px;
+}
+.footer-area .footer-widget {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.footer-area .footer-widget h3, .footer-area .footer-widget .h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0 0 16px;
+  color: #313131;
+  text-transform: uppercase;
+}
+.footer-area .footer-widget ul {
+  margin: 0;
+  padding: 0;
+  list-style: outside none none;
+}
+.footer-area .footer-widget ul li {
+  margin: 0 0 11px;
+}
+.footer-area .footer-widget ul li a {
+  letter-spacing: 0.3px;
+  color: #5d5d5d;
+  text-decoration: none;
+}
+.footer-area .footer-widget .subscribe-style p {
+  margin: 0 0 20px;
+  color: #7a7a7a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */
