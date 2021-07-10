@@ -1,0 +1,156 @@
+/** @format */
+
+.table-content {
+	table {
+		border: 1px solid #ebebeb;
+		border-collapse: collapse;
+		thead {
+			tr {
+				border: 1px solid #ebebeb;
+				background-color: #f9f9f9;
+
+				th {
+					font-size: 14px;
+					font-weight: 500;
+					padding: 21px 45px 22px;
+					text-align: center;
+					vertical-align: middle;
+					white-space: nowrap;
+					text-transform: uppercase;
+					color: #333;
+					border-top: none;
+				}
+			}
+		}
+
+		tbody {
+			tr {
+				border-bottom: 1px solid #ebebeb;
+
+				td {
+					font-size: 15px;
+					padding: 30px 0 30px 30px;
+					text-align: center;
+					color: #333;
+				}
+
+				.product-thumbnail {
+					width: 150px;
+
+					img {
+						max-width: 100%;
+						height: auto;
+					}
+				}
+
+				.product-name {
+					width: 435px;
+					text-align: left;
+
+					a {
+						font-size: 15px;
+						font-weight: 500;
+						color: #333;
+						text-decoration: none;
+					}
+					.cart-item-variation {
+						margin-top: 10px;
+
+						span {
+							display: block;
+						}
+					}
+				}
+
+				.product-price-cart {
+					width: 435px;
+
+					span {
+						font-weight: 500;
+						color: #333;
+					}
+					.old {
+						margin-right: 10px;
+						text-decoration: line-through;
+						color: #8e8e8e;
+					}
+				}
+
+				.product-quantity {
+					width: 435px;
+
+					.cart-plus-minus {
+						position: relative;
+						display: inline-block;
+						width: 110px;
+						height: 40px;
+						padding: 0;
+
+						.dec {
+							top: 0;
+							left: 0;
+							height: 40px;
+							border-right: 1px solid #e5e5e5;
+						}
+						.qtybutton {
+							font-size: 16px;
+							position: absolute;
+							float: inherit;
+							width: 20px;
+							margin: 0;
+							cursor: pointer;
+							transition: all 0.3s ease 0s;
+							text-align: center;
+							color: #333;
+							border: none;
+							background: none;
+						}
+
+						input {
+							font-size: 14px;
+							float: left;
+							width: 110px;
+							height: 40px;
+							margin: 0;
+							padding: 0;
+							text-align: center;
+							color: #333;
+							border: 1px solid #e1e1e1;
+							background: transparent none repeat scroll 0 0;
+							box-shadow: none;
+						}
+
+						.inc {
+							top: 0;
+							right: 0;
+							height: 40px;
+							border-left: 1px solid #e5e5e5;
+						}
+					}
+				}
+
+				.product-subtotal {
+					font-weight: 500;
+					color: #333;
+				}
+
+				.product-remove {
+					width: 100px;
+
+					button {
+						font-size: 17px;
+						margin: 0 13px;
+						color: #666;
+						border: none;
+						background: none;
+						cursor: pointer;
+
+						&:hover {
+							color: #a749ff;
+						}
+					}
+				}
+			}
+		}
+	}
+}
