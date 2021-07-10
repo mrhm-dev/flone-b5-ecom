@@ -1,0 +1,138 @@
+/** @format */
+
+.accordion {
+	overflow-anchor: none;
+
+	.card {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		min-width: 0;
+		word-wrap: break-word;
+		background-color: #fff;
+		background-clip: border-box;
+		border-radius: 0.25rem;
+		overflow: hidden;
+
+		&:not(:last-of-type) {
+			border-bottom: 0;
+			border-bottom-right-radius: 0;
+			border-bottom-left-radius: 0;
+		}
+
+		&:not(:first-of-type) {
+			border-top-left-radius: 0;
+			border-top-right-radius: 0;
+		}
+
+		.card-header {
+			border-radius: 0;
+			margin-bottom: -1px;
+			background-color: rgba(0, 0, 0, 0.03);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+
+			button {
+				background: none;
+				border: none;
+				width: 100%;
+				text-align: left;
+				padding: 0;
+				cursor: pointer;
+
+				.panel-title {
+					background-color: #f9f9f9;
+					border-bottom: 1px solid #ebebeb;
+					font-size: 15px;
+					font-weight: 500;
+					margin: 0;
+					text-transform: uppercase;
+					color: #242424;
+					display: block;
+					padding: 16px 55px;
+					position: relative;
+					line-height: 30px;
+
+					span {
+						color: #242424;
+						font-size: 15px;
+						left: 20px;
+						position: absolute;
+						top: 16px;
+					}
+
+					&:before {
+						color: #000;
+						content: '';
+						display: inline-block;
+						font-family: FontAwesome;
+						font-size: 16px;
+						position: absolute;
+						right: 10px;
+						top: 19px;
+					}
+				}
+			}
+		}
+
+		.single-my-account {
+			margin-bottom: 20px;
+			border: 1px solid #ebebeb;
+
+			.panel-heading {
+				padding: 0;
+
+				button {
+					background: none;
+					border: none;
+					width: 100%;
+					text-align: left;
+					padding: 0;
+					cursor: pointer;
+
+					.panel-title {
+						background-color: #f9f9f9;
+						border-bottom: 1px solid #ebebeb;
+						font-size: 15px;
+						font-weight: 500;
+						margin: 0;
+						text-transform: uppercase;
+						color: #242424;
+						display: block;
+						padding: 16px 55px;
+						position: relative;
+
+						span {
+							color: #242424;
+							font-size: 15px;
+							left: 20px;
+							position: absolute;
+							top: 16px;
+						}
+						&:before {
+							color: #000;
+							content: '';
+							display: inline-block;
+							font-family: FontAwesome;
+							font-size: 16px;
+							position: absolute;
+							right: 10px;
+							top: 19px;
+						}
+					}
+				}
+			}
+		}
+
+		.card-body {
+			border-bottom: 1px solid #ebebeb;
+			flex: 1 1 auto;
+			min-height: 1px;
+			padding: 1.25rem;
+
+			.myaccount-info-wrapper {
+				padding: 30px 20px;
+				background-color: #fff;
+			}
+		}
+	}
+}

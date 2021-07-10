@@ -1,3 +1,5 @@
+/** @format */
+
 // Customize Bootstrap
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
@@ -6,10 +8,19 @@ $font-family-sans-serif: 'Poppins', sans-serif;
 
 // Import Bootstrap from node_modules
 @import '../node_modules/bootstrap/scss/bootstrap';
+@import './underBreadcrumbs';
+@import 'form';
+@import './contact';
+@import 'login';
+@import './shop';
+@import './cart';
+@import './item-table';
+@import './checkout';
+@import './account';
 
 // All Custom Code
 body {
-	background-color: #f6f6f6;
+	background-color: #ffff;
 	width: 100vw;
 	min-height: 100vh;
 }
@@ -102,7 +113,6 @@ body {
 	justify-content: flex-end;
 }
 
-
 // Featured banners
 .single-banner {
 	border: 4px solid #fff;
@@ -112,13 +122,13 @@ body {
 
 	img {
 		width: 100%;
-		transition: all .5s ease 0s;
+		transition: all 0.5s ease 0s;
 		transform: scale(1);
 	}
 
 	.banner-content {
 		position: absolute;
-		content: "";
+		content: '';
 		top: 40px;
 		left: 36px;
 
@@ -128,7 +138,7 @@ body {
 			font-size: 36px;
 			font-weight: 600;
 			line-height: 30px;
-			color: #617D05;
+			color: #617d05;
 		}
 
 		h4 {
@@ -145,7 +155,7 @@ body {
 			margin-left: 2px;
 			font-size: 20px;
 			line-height: 1;
-			color: #617D05;
+			color: #617d05;
 			position: relative;
 			top: 2px;
 		}
@@ -154,11 +164,11 @@ body {
 			display: inline-block;
 			width: 28px;
 			height: 28px;
-			border: 2px solid #617D05;
+			border: 2px solid #617d05;
 			border-radius: 100%;
 			font-size: 16px;
 			text-align: center;
-			color: #617D05;
+			color: #617d05;
 		}
 
 		a > i {
@@ -167,7 +177,7 @@ body {
 	}
 
 	&:hover a img {
-		transform: scale(1.2)
+		transform: scale(1.2);
 	}
 }
 
@@ -188,7 +198,7 @@ body {
 			top: 17px;
 			width: 80px;
 			height: 2px;
-			content: "";
+			content: '';
 			background-color: #000;
 		}
 
@@ -215,7 +225,8 @@ body {
 		padding: 8px 16px;
 	}
 
-	a.active h4, a h4:hover {
+	a.active h4,
+	a h4:hover {
 		color: #000;
 	}
 
@@ -310,7 +321,6 @@ body {
 				visibility: hidden;
 				opacity: 0;
 
-
 				button {
 					font-size: 16px;
 					line-height: 48px;
@@ -383,7 +393,7 @@ body {
 			right: -13px;
 			width: 7px;
 			height: 2px;
-			content: "";
+			content: '';
 			background-color: #000;
 		}
 
@@ -393,7 +403,7 @@ body {
 		}
 
 		.product-price span.old:after {
-			content: "";
+			content: '';
 			display: none;
 		}
 	}
@@ -424,19 +434,25 @@ body {
 
 	@keyframes icon-animation {
 		0% {
-			transform: scaleX(1)
+			transform: scaleX(1);
 		}
-		10%, 20% {
-			transform: scale3d(.9, .9, .9) rotate(-3deg);
+		10%,
+		20% {
+			transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
 		}
-		30%, 50%, 70%, 90% {
+		30%,
+		50%,
+		70%,
+		90% {
 			transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
 		}
-		40%, 60%, 80% {
+		40%,
+		60%,
+		80% {
 			transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
 		}
 		100% {
-			transform: scaleX(1)
+			transform: scaleX(1);
 		}
 	}
 
@@ -510,7 +526,6 @@ body {
 		}
 	}
 }
-
 
 // Footer
 .footer-area {

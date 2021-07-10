@@ -1,0 +1,228 @@
+/** @format */
+.sidebar-style {
+	.mr-30 {
+		margin-right: 30px;
+	}
+	.mt-50 {
+		margin-top: 50px;
+	}
+
+	.mt-40 {
+		margin-top: 40px;
+	}
+
+	.sidebar-widget {
+		h4 {
+			font-size: 16px;
+			font-weight: 500;
+			margin: 0;
+			color: #333;
+		}
+
+		.mb-50 {
+			margin-bottom: 50px;
+		}
+		.mt-25 {
+			margin-top: 25px;
+		}
+		.mt-20 {
+			margin-top: 20px;
+		}
+
+		.mt-30 {
+			margin-top: 30px;
+		}
+
+		.pro-sidebar-search-form {
+			position: relative;
+
+			input {
+				width: 100%;
+				font-size: 14px;
+				height: 43px;
+				padding: 2px 55px 2px 18px;
+				color: #000;
+				border: 1px solid #e6e6e6;
+				background: transparent none repeat scroll 0 0;
+				box-shadow: none;
+			}
+
+			button {
+				font-size: 20px;
+				position: absolute;
+				top: 50%;
+				right: 0;
+				padding: 0 15px;
+				cursor: pointer;
+				transition: all 0.3s ease 0s;
+				transform: translateY(-50%);
+				color: #a1a5aa;
+				border: #a1a5aa;
+				border-left: 1px solid #a1a5aa;
+				border-image: none;
+				background: transparent none repeat scroll 0 0;
+			}
+		}
+
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: outside none none;
+
+			li {
+				position: relative;
+				align-items: center;
+				padding: 0 0 15px;
+
+				button {
+					position: relative;
+					display: block;
+					width: 100%;
+					padding: 0 0 0 30px;
+					text-align: left;
+					text-transform: capitalize;
+					border: none;
+					background: none;
+					font-size: 14px;
+					.checkmark {
+						position: absolute;
+						left: 0;
+						top: 15%;
+						width: 15px;
+						height: 15px;
+						border: 2px solid #888;
+						border-radius: 3px;
+						background-color: #fff;
+						line-height: 20px;
+
+						// Here hover is not working properly
+
+						&:hover {
+							border-color: #a749ff;
+							background-color: #a749ff;
+						}
+					}
+				}
+			}
+		}
+
+		.sidebar-widget-tag {
+			ul {
+				margin: 0;
+				padding: 0;
+				list-style: outside none none;
+			}
+
+			li {
+				display: inline-block;
+				margin: 0 10px 15px 0;
+
+				button {
+					line-height: 1;
+					display: inline-block;
+					padding: 9px 13px 12px;
+					text-transform: capitalize;
+					color: #424242;
+					border: none;
+					border-radius: 50px;
+					background: none;
+					background-color: #f6f6f6;
+
+					&:hover {
+						color: #fff;
+						background-color: #a749ff;
+					}
+				}
+			}
+		}
+	}
+}
+
+.shop-top-bar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 35px;
+
+	.select-shoping-wrap {
+		display: flex;
+
+		.shop-select {
+			margin-right: 50px;
+
+			select {
+				font-size: 14px;
+				min-width: 143px;
+				padding: 5px;
+				color: #606060;
+				border: 1px solid #e6e6e6;
+
+				option {
+					font-size: 14px;
+					padding-left: 10px;
+					border: 0 solid #626262;
+					background: #fff;
+				}
+			}
+		}
+
+		p {
+			margin: 0;
+			color: #606060;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 24px;
+		}
+	}
+
+	.shop-tab {
+		button {
+			font-size: 18px;
+			margin-left: 20px;
+			padding: 0;
+			color: #606060;
+			border: none;
+			background: none;
+		}
+	}
+}
+
+.pro-pagination-style {
+	margin-top: 30px;
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: outside none none;
+
+		li {
+			display: inline-block;
+			margin: 0 4px;
+
+			.page-link {
+				font-size: 16px;
+				line-height: 43px;
+				display: inline-block;
+				width: 43px;
+				height: 43px;
+				padding: 0;
+				text-align: center;
+				color: #a749ff;
+				border: none;
+				border-radius: 100% !important;
+				background: none;
+				box-shadow: 0 0 12px 0.8px rgba(0, 0, 0, 0.1);
+
+				&:hover {
+					color: #fff;
+					background-color: #a749ff;
+				}
+			}
+		}
+		li.active .page-link {
+			border-color: #a749ff;
+			background-color: #a749ff;
+			box-shadow: 0 0 12px 0.8px rgba(0, 0, 0, 0.1) !important;
+		}
+	}
+}

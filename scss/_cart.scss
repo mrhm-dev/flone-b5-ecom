@@ -1,0 +1,223 @@
+/** @format */
+
+.cart-page-title {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0 0 15px;
+}
+
+.cart-shiping-update-wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0 55px;
+
+	a {
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 1;
+		display: inline-block;
+		padding: 18px 63px 17px;
+		text-transform: uppercase;
+		color: #363f4d;
+		border-radius: 50px;
+		background-color: #f2f2f2;
+		text-decoration: none;
+
+		&:hover {
+			color: #fff;
+			background-color: #a749ff;
+		}
+	}
+
+	.cart-clear {
+		button {
+			margin-right: 27px;
+			cursor: pointer;
+			transition: all 0.3s ease 0s;
+			border: none;
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 1;
+			display: inline-block;
+			padding: 18px 63px 17px;
+			text-transform: uppercase;
+			color: #363f4d;
+			border-radius: 50px;
+			background-color: #f2f2f2;
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			&:hover {
+				color: #fff;
+				background-color: #a749ff;
+			}
+		}
+	}
+}
+
+.cart-tax,
+.discount-code-wrapper,
+.grand-totall {
+	padding: 45px 30px 50px;
+	border: 1px solid #ebebeb;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+
+	.title-wrap {
+		position: relative;
+
+		h4 {
+			font-size: 18px;
+			font-weight: 500;
+			display: inline-block;
+			margin: 0;
+			padding-right: 18px;
+			position: relative;
+			z-index: 99;
+			background-color: #f8f9f9;
+		}
+	}
+	.tax-wrapper {
+		margin-top: 22px;
+
+		p {
+			margin: 0;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 24px;
+			color: #333;
+		}
+		.tax-select-wrapper {
+			margin: 5px 0 0;
+
+			.tax-select {
+				margin: 0 0 26px;
+
+				label {
+					font-size: 14px;
+					margin: 0 0 5px;
+					color: #242424;
+				}
+
+				select {
+					font-size: 12px;
+					width: 100%;
+					height: 40px;
+					padding: 0 50px 0 15px;
+					cursor: pointer;
+					color: #242424;
+					border: 1px solid #ebebeb;
+					box-shadow: none;
+					-webkit-appearance: none;
+					-moz-appearance: none;
+
+					option {
+						font-size: 14px;
+						padding-left: 10px;
+						border: 0 solid #626262;
+						background: #fff;
+					}
+				}
+
+				input {
+					width: 100%;
+					height: 40px;
+					border: 1px solid #ebebeb;
+					background: #fff none repeat scroll 0 0;
+					padding-left: 10px;
+					box-shadow: none;
+
+					&:focus {
+						outline: none !important;
+					}
+				}
+			}
+		}
+	}
+
+	.cart-btn-2,
+	a {
+		font-size: 14px;
+		font-weight: 500;
+		padding: 13px 42px 12px;
+		cursor: pointer;
+		transition: all 0.3s ease 0s;
+		text-transform: uppercase;
+		color: #fff;
+		border: none;
+		border-radius: 50px;
+		background-color: #a749ff;
+		cursor: pointer;
+		text-decoration: none;
+
+		&:hover {
+			background-color: #333;
+		}
+	}
+
+	.discount-code {
+		margin: 21px 0 0;
+
+		p {
+			margin: 0 0 15px;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 24px;
+			color: #333;
+		}
+
+		input {
+			width: 100%;
+			height: 40px;
+			margin-bottom: 30px;
+			padding-left: 10px;
+			border: 1px solid #ebebeb;
+			background: #fff;
+		}
+	}
+
+	h5 {
+		font-size: 14px;
+		margin: 36px 0 27px;
+
+		span {
+			font-size: 18px;
+			font-weight: 500;
+			float: right;
+		}
+	}
+
+	h4 {
+		font-size: 20px;
+		font-weight: 500;
+		margin: 0 0 25px;
+		color: #a749ff;
+		line-height: 24px;
+
+		span {
+			float: right;
+		}
+	}
+}
+
+// Abstruct button.
+.cart-btn-2 {
+	font-size: 14px;
+	font-weight: 500;
+	padding: 13px 42px 12px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	text-transform: uppercase;
+	color: #fff;
+	border: none;
+	border-radius: 50px;
+	background-color: #a749ff;
+	cursor: pointer;
+	text-decoration: none;
+
+	&:hover {
+		background-color: #333;
+	}
+}

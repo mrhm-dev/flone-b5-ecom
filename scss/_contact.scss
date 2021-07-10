@@ -1,0 +1,144 @@
+/** @format */
+
+// breadcrumb area
+.breadcrumb-area {
+	background-color: #f7f7f7;
+	padding: 35px 0px;
+	margin-top: 1rem;
+
+	span > span {
+		display: inline-block;
+		font-size: 15px;
+		font-weight: 500;
+		text-transform: uppercase;
+
+		a {
+			font-weight: 500;
+			color: #5b5858;
+			text-decoration: none;
+
+			&:hover {
+				color: #a749ff;
+			}
+		}
+
+		span {
+			margin: 0 15px;
+		}
+	}
+}
+
+// Contact form area
+
+.custom-row-1 {
+	display: flex;
+	flex-wrap: wrap;
+
+	.contact-info-wrap {
+		padding: 120px 70px 116px 90px;
+		background-color: #f3f3f3;
+
+		.single-contact-info {
+			display: flex;
+			align-items: center;
+			margin-bottom: 40px;
+
+			.single-contact-info p,
+			a {
+				color: #404040;
+				font-family: Poppins, sans-serif;
+				font-size: 14px;
+				font-weight: 400;
+				text-decoration: none;
+			}
+
+			.contact-icon {
+				margin-right: 20px;
+				width: 42px;
+				height: 42px;
+				display: inline-block;
+				transition: all 0.3s ease 0s;
+				text-align: center;
+				color: #252525;
+				border: 1px solid #252525;
+				border-radius: 100%;
+				font-size: 15px;
+				line-height: 42px;
+
+				&:hover {
+					border: none;
+					color: #fff;
+					background-color: #252525;
+				}
+			}
+
+			.contact-info-dec p {
+				line-height: 1;
+				margin: 0 0 9px;
+			}
+
+			a:hover {
+				color: #a749ff;
+			}
+		}
+
+		.contact-social {
+			margin-top: 58px;
+
+			.contact-social h3 {
+				font-size: 24px;
+				font-weight: 500;
+				line-height: 1;
+				margin: 0 0 17px;
+				color: #4d4d4d;
+			}
+			ul {
+				margin: 0;
+				padding: 0;
+				list-style: outside none none;
+				display: block;
+
+				li {
+					display: inline-block;
+					margin: 0 10px;
+
+					a {
+						font-size: 16px;
+						color: #4d4d4d;
+
+						&:hover {
+							color: #a749ff;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.contact-form {
+		padding: 50px 110px;
+		background-color: #f3f3f3;
+		margin-left: 20px;
+		height: 100%;
+
+		.contact-title h2 {
+			font-size: 24px;
+			font-weight: 500;
+			line-height: 1;
+			margin-bottom: 36px;
+			color: #464646;
+		}
+
+		.contact-form p {
+			color: #333;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		.mb-30 {
+			margin-bottom: 30px;
+		}
+	}
+}
